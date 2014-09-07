@@ -1,0 +1,11 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+    
+    <ui:with field='common'
+             type='bastien03.client.resources.CommonResources'/>
+    
+    <g:HTMLPanel>
+    	<g:Label text="{common.lang.description}"/>
+    	<g:SimplePanel ui:field="main"/>
+    </g:HTMLPanel>
+</ui:UiBinder>

@@ -1,0 +1,18 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+             
+    <ui:with field='common'
+             type='bastien03.client.resources.CommonResources'/>
+    
+    <g:HTMLPanel ui:field="main">
+    	<g:HTMLPanel>
+    		<g:SimplePanel ui:field="topLeft" styleName="{common.css.floatLeft}"/>
+    		<g:SimplePanel ui:field="topRight" styleName="{common.css.floatRight}"/>
+    	</g:HTMLPanel>
+    	<g:HTMLPanel>
+    		<g:SimplePanel ui:field="bottomLeft" styleName="{common.css.floatLeft}"/>
+    		<g:SimplePanel ui:field="bottomRight" styleName="{common.css.floatRight}"/>
+    	</g:HTMLPanel>
+    </g:HTMLPanel>
+    
+</ui:UiBinder>

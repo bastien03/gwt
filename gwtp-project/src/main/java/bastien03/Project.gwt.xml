@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module rename-to='project'>
+    <!-- Inherit the core Web Toolkit stuff. -->
+    <inherits name='com.google.gwt.user.User' />
+    <inherits name='com.google.gwt.inject.Inject' />
+	<inherits name='com.google.gwt.i18n.I18N' />
+
+    <!-- Default css -->
+    <inherits name='com.google.gwt.user.theme.standard.Standard' />
+    <!-- <inherits name='com.google.gwt.user.theme.chrome.Chrome'/> -->
+    <!-- <inherits name='com.google.gwt.user.theme.dark.Dark'/> -->
+
+    <!-- Other module inherits -->
+    <inherits name='com.gwtplatform.dispatch.Dispatch' />
+    
+    <inherits name='com.gwtplatform.mvp.MvpWithEntryPoint' />
+
+    <source path='client' />
+    <source path='shared' />
+
+    <set-configuration-property name="gin.ginjector.modules" 
+                                value="bastien03.client.gin.ClientModule"/>
+    
+    <set-configuration-property name="gwtp.bootstrapper"
+                                value="bastien03.client.BootstrapperImpl"/>
+
+	<extend-property name='locale' values='en_US, fr'/>
+</module>

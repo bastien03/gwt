@@ -1,0 +1,36 @@
+.float-right {
+	float: right;
+	width: 50%;
+}
+
+.float-left {
+	float: left;
+	width: 50%;
+}
+
+.clear-both {
+	clear: both;	
+}
+
+.color-1 {
+	background-color: #122A0A;
+}
+.color-2 {
+	background-color: #1B2A0A;
+}
+.color-3 {
+	background-color: #243B0B;
+}
+.color-4 {
+	background-color: #38610B;
+}
+.color-5 {
+	background-color: #4B8A08;
+}
+.color-6 {
+	background-color: #5FB404;
+}
+.color-7 {
+	background-color: #74DF00;
+}
+
