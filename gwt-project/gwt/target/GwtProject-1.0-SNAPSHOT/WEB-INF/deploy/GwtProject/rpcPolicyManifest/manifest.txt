@@ -1,3 +1,0 @@
-# Module GwtProject
-# RPC service class, partial path of RPC policy file
-bastien03.client.GreetingService, 13611EFF19DB57DBD14CBF9E2578F4C1.gwt.rpc
